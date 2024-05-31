@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zentek Electronics</title>
+    <link rel="stylesheet" href="/styles/review.css">
+    <link rel="stylesheet" href="/styles/shared.css">
+    <script src="/scripts/mobile.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="logo" loading="eager">
+            <a href="index.html">entek Electronics</a>
+        </div>
+        <ul id="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="review.html">Review</a></li>
+
+        </ul>
+        <div id="search-bar">
+            <input type="text" placeholder="Search">
+            <button class="btn">Submit</button>
+        </div>
+
+        <div id="search-img"><img src="/images/search.jpg" alt="search bar"></div>
+        
+        <button id="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <aside id="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="review.html">Review</a></li>
+        </ul>
+    </aside>
+
+    <aside id="show-search-bar">
+        <input type="text" placeholder="Search">
+        <button class="btn">Submit</button>
+    </aside>
+    
+    <main>
+        <h1 class="heading">Review</h1>
+        <hr>
+        <section>  
+            <form>
+                <h2>We <span>Love</span> to <span id="span-alt">Hear</span> from You</h2>
+                <p>
+                    <label for="user-name">Your Name</label>
+                    <input type="text" name="user-name" id="user-name" required>
+                </p>
+                <p>
+                    <label for="user-email">Email</label>
+                    <input type="email" name="user-email" id="user-email" required>
+                </p>
+                <p>
+                    <label for="comment">Comment</label>
+                    <textarea type="text" name="comment" id="comment" rows="3" required></textarea>
+                </p>
+                <a href="review.html" class="btn">Submit</a>
+            </form>
+            <img src="/images/illsutration/mic.jpg" alt="image not loaded" loading="eager">
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.item{
+    background-color: rgb(227, 227, 227);
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item h3{
+    margin: 0.5rem ;
+}
+
+.item img{
+    width: 80%;
+    height: 12rem;
+    object-fit: cover;
+    margin: auto;
+}
+
+.item p span{
+    color: rgb(27, 126, 27);
+}
+
+.special img{
+    width: 90%;
+    height: 7rem;
+}
+
+.ad-conta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    padding: 1rem 1.5rem;
+}
+
+.ad-text h2 span{
+    color: rgb(248, 124, 36);
+}
+
+.ad-text h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.ad-text h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ad-conta img{
+    min-width: 10rem;
+    max-width: 20rem;
+    max-height: 20rem;
+    object-fit: cover;
+}
+
+#special-offer h2{
+    margin: 1rem 2rem;
+}
+
+#special-offer ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(13rem,1fr));
+    gap: 1.5rem;
+}
+
+#product ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(16.5rem,1fr));
+    gap: 1rem;
+}
+
+#product #view{
+    background-color: rgb(37, 72, 91);
+    display: block;
+    margin: 1rem auto;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: rgb(37, 72, 91);
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:680px) {
+    .ad-conta{
+        flex-direction: column;
+    }
+
+    .ad-text{
+        text-align: center;
+    }
+
+    .ad-conta img{
+        width:50%;
+    }
+}
+
+@media(max-width: 560px){
+    #product li{
+        margin: 1rem auto 0 auto;
+    }
+
+    .item{
+        width: 70%;
+    }
+}
+
+@media(max-width:456px){
+    .special{
+        width: 50%;
+        margin: auto;
+    }
+
+    #special-offer ul{
+        margin: 1rem 0;
+    }
+}
